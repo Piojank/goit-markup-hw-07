@@ -1,0 +1,38 @@
+.footer {
+    background: $rock;
+
+    &__logo {
+        color: $white;
+
+        &--white{
+            color: white;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        margin-right: auto;
+        margin-right: 70px;
+    }
+}
+
+.adress {
+
+    &__list {
+        font-style: normal;
+        padding-top: 20px;
+    }
+
+    &__item {
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: $grey;
+
+        &:not(:last-child) {
+            margin-bottom: 9px;
+        }
+    }
+
+
+}

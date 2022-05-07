@@ -1,0 +1,31 @@
+.service {
+    background-color: $rock;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url("../images/main/service_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $white;
+        margin-bottom: 30px;
+        width: 696px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__btn {
+        padding: 10px 41px 10px 42px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+}

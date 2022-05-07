@@ -1,0 +1,54 @@
+// .section {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+// }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+    .page-header & {
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
+
+    .service & {
+        padding: 200px 0;
+    }
+
+    .article & {
+        padding-top: 94px;
+        padding-bottom: 47px;
+    }
+
+    .about & {
+        padding-top: 47px;
+        padding-bottom: 94px;
+    }
+
+    .team & {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .clients & {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .footer & {
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .nav & {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}

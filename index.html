@@ -13,7 +13,7 @@
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./sass/main.css">
 
 </head>
 
@@ -21,9 +21,8 @@
 
     <header class="page-header">
       <div class="container">
-        <h2 class="page-header__logo logo">
-          <a class="logo link" href="./index.html"><span class="logo logo__accent--blue">Web</span>Studio</a>
-        </h2>
+        <a class="logo link" href="./index.html"><span class="logo logo__accent--blue">Web</span>Studio</a>
+
 
         <nav class="navigation">
           <ul class="navigation__list">
@@ -393,7 +392,7 @@
 
       <!-- Team markup-->
       <section class="clients">
-        <div class="container"></div>
+        <div class="container">
         <h2 class="clients__title main-header">Nasi klienci</h2>
           <ul class="clients__list">
             <li class="clients__item list">
@@ -446,12 +445,10 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-            <h2 class="footer__logo logo">
               <a class="footer__logo footer_logo--white logo link" href="./index.html"
                 ><span class="logo logo__accent--blue">Web</span
                 ><span class="logo logo__accent--white">Studio</span></a
               >
-            </h2>
             <address>
               <ul class="adress__list">
                 <li class="adress__item list">
@@ -535,7 +532,7 @@
                   required
                 />
               </label>
-              <button type="submit" class="newsletter__btn btn--blue">
+              <button type="submit" class="btn btn--blue newsletter__btn ">
                 Zapisz się
                 <svg class="newsletter__icon">
                   <use href="./images/icons.svg#icon-send"></use>

@@ -1,0 +1,36 @@
+.about {
+
+    &__title {
+        padding-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        position: relative;
+        overflow: hidden;
+        padding: 15xp 15px;
+    }
+
+    &__caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+    
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.143;
+        background: rgba(47, 48, 58, 0.8);
+        color: $white;
+        height: 70px;
+        padding: 27px 0;
+    }
+}
