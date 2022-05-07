@@ -30,12 +30,7 @@ p {
 a,
 a:visited {
     text-decoration: none;
-    color: $black;
-}
-
-button,
-svg {
-    cursor: pointer;
+    color: currentColor;
 }
 
 figcaption {

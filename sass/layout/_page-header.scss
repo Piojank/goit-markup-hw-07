@@ -16,6 +16,10 @@
         &:not(:last-child) {
             margin-right: 46px;
         }
+
+        &--active-page {
+            color: $blue;
+        }
     }
 
     &__link {

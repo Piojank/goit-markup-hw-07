@@ -445,7 +445,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-              <a class="footer__logo footer_logo--white logo link" href="./index.html"
+          <a class="footer__logo footer_logo--white logo link" href="./index.html"
                 ><span class="logo logo__accent--blue">Web</span
                 ><span class="logo logo__accent--white">Studio</span></a
               >
@@ -495,7 +495,7 @@
                   class="footer-socials__link"
                   href="https://www.facebook.com/"
                 >
-                  <svg class="footer-social__icon icon social-icon">
+                  <svg class="footer-socials__icon icon social-icon">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
@@ -548,7 +548,7 @@
 
       <div class="modal">
         <button type="button" id="close" class="modal__btn" data-modal-close>
-          <svg class="btn__close">
+          <svg class="close__icon">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
         </button>
@@ -591,7 +591,7 @@
               <svg class="form__icon">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-              <input type="email" id="user_email" name="email" required />
+              <input class="form__text" type="email" id="user_email" name="email" required />
             </label>
 
             <label class="form__label">
@@ -607,7 +607,7 @@
 
             <label class="policy__input">
               <input
-                class="policy__checkbox-input hidden-input"
+                class="policy__input--checkbox hidden-input"
                 type="checkbox"
                 name="accept"
                 required
@@ -619,7 +619,7 @@
               </span>
             </label>
 
-            <button type="button" id="send" class="modal__btn-submit btn--blue" data-modal-close>
+            <button type="button" id="send" class="modal__btn--submit btn--blue btn" data-modal-close>
               Wyślij
             </button>
           </form>
